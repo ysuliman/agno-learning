@@ -6,4 +6,15 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "agno>=1.1.9",
+    "dot>=0.3.0",
+    "duckduckgo-search>=7.5.1",
+    "env>=0.1.0",
+    "exa-py>=1.9.0",
+    "fastapi>=0.115.11",
+    "lancedb>=0.21.1",
+    "openai>=1.65.5",
+    "sqlalchemy>=2.0.39",
+    "uvicorn>=0.34.0",
+    "yfinance>=0.2.54",
+    "youtube-transcript-api>=1.0.0",
 ]

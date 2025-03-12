@@ -5,6 +5,12 @@ build/
 dist/
 wheels/
 *.egg-info
+/tmp/
+/business-context/
+/data/
+/linked-in-posts/
+/tmp/
 
 # Virtual environments
-.venv
+.ven.env
+.env

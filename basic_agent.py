@@ -1,5 +1,8 @@
 import asyncio
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
 
@@ -10,4 +13,4 @@ agent = Agent(
     markdown=True,
 )
 # -*- Print a response to the cli
-asyncio.run(agent.aprint_response("Share a breakfast recipe."))
+asyncio.run(agent.aprint_response("Share a breakfast recipe.", stream=True))
